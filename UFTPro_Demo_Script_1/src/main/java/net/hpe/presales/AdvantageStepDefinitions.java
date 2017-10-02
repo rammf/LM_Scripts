@@ -73,7 +73,7 @@ public class AdvantageStepDefinitions
      //   throw new PendingException();
     }
 
-    @Then("^the MSN log is displayed$")
+    @Then("^the MSN logo is displayed$")
     public void the_MSN_log_is_displayed() throws Throwable {
         String display_text = browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .tagName("H1")

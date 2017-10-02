@@ -5,4 +5,4 @@ Scenario: Verify MSN is searchable from Google
 		Given I am in the Google web site
 		And I search for MSN 
 		When I view MSN page 
-		Then the MSN log is displayed
+		Then the MSN logo is displayed
