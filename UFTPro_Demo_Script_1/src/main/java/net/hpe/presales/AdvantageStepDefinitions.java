@@ -19,7 +19,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.And;
 import org.junit.Assert;
-
+import java.lang.Thread;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Administrator on 8/14/2016.
@@ -47,6 +49,9 @@ public class AdvantageStepDefinitions
 //        throw new PendingException();
     }
 
+
+
+
     @Given("^I search for MSN$")
     public void i_search_for_MSN() throws Throwable {
 
@@ -61,14 +66,19 @@ public class AdvantageStepDefinitions
                 .name("Google Search").build()).click();
         // Write code here that turns the phrase above into concrete actions
    //     throw new PendingException();
+        TimeUnit.SECONDS.sleep(5);
     }
+
 
     @When("^I view MSN page$")
     public void i_view_MSN_page() throws Throwable {
 
         browser.describe(Link.class, new LinkDescription.Builder()
+                .role("")
+                .accessibilityName("")
                 .tagName("A")
-                .innerText("MSN.com - Hotmail, Outlook, Skype, Bing, Latest News, Photos & Videos").build()).click();
+                .innerText("MSN.com - Hotmail, Outlook, Skype, Bing, Latest News, Photos & Videos")
+                .index(0).build()).click();
         // Write code here that turns the phrase above into concrete actions
      //   throw new PendingException();
     }
