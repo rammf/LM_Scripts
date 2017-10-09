@@ -74,7 +74,7 @@
     </build>
     <profiles>
         <profile>
-            <id>leanft-test</id>
+            <id>sel-test</id>
             <properties>
                 <test.src.dir>src/main/test/java</test.src.dir>
             </properties>

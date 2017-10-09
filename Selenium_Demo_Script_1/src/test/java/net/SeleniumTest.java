@@ -3,17 +3,8 @@ package net;
 
 import org.junit.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-
-
-import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
-import org.openqa.selenium.support.pagefactory.ByChained;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-
-import java.io.File;
 
 import static junit.framework.TestCase.assertTrue;
 
@@ -43,7 +34,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void test() throws Exception {
+    public void demoseltest() throws Exception {
 
 
           WebDriver driver = new ChromeDriver();
