@@ -71,13 +71,7 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://mydtbld0028.hpeswlab.net:8081/nexus/content/groups/leanft-public</url>
-        </repository>
-    </repositories>
+
 
 
     <build>
