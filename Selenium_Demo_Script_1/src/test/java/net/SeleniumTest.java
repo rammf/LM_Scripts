@@ -2,8 +2,7 @@ package net;
 
 
 import org.junit.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 
 import static junit.framework.TestCase.assertTrue;
@@ -42,6 +41,8 @@ public class SeleniumTest {
         driver.get("http://www.google.com");
 
         driver.findElement(By.name("q")).sendKeys("MSN");
+		
+		driver.findElement(By.name("q")).sendKeys(Keys.TAB);
 
         driver.findElement(By.name("btnK")).click();
 
