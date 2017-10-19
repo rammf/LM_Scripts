@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID1001REV0.4.0
+@TID1001REV0.6.0
 Feature:
 Scenario: Verify MSN is searchable from Google
 		Given I am in the Google web site
