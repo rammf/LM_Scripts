@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>mydemo.net</groupId>
-    <artifactId>UFTproSel</artifactId>
+    <groupId>com.mf</groupId>
+    <artifactId>Selenium</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>LeanFT Selenium JUnit Test</name>
-    <description>LeanFT Selenium JUnit Test</description>
+    <name>Selenium JUnit Test</name>
+    <description>Selenium JUnit Test</description>
 
     <dependencies>
         <dependency>
@@ -72,13 +72,6 @@
             </plugin>
         </plugins>
     </build>
-    <profiles>
-        <profile>
-            <id>sel-test</id>
-            <properties>
-                <test.src.dir>src/main/test/java</test.src.dir>
-            </properties>
-        </profile>
-    </profiles>
+
 
 </project>
