@@ -9,9 +9,6 @@ import static junit.framework.TestCase.assertTrue;
 
 public class SeleniumTest {
 
-    public SeleniumTest() {
-    //Change this constructor to private if you supply your own public constructor
-    }
 
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
