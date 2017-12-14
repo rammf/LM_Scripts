@@ -1,13 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mf</groupId>
-    <artifactId>Selenium</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>Selenium JUnit Test</name>
-    <description>Selenium JUnit Test</description>
-
-    <dependencies>
+  <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -52,7 +43,7 @@
                                 <junitreport todir="target/surefire-reports">
                                     <fileset dir="target/surefire-reports">
                                         <include name="**/*.xml"/>
-                                     </fileset>
+                                    </fileset>
                                     <report format="noframes" todir="target/surefire-reports"/>
                                 </junitreport>
                             </tasks>
@@ -73,5 +64,10 @@
         </plugins>
     </build>
 
-
 </project>
+
+ssh://root@nimbusserver:9022/GitRepo/AOS_Simple_Seleinum_Script
+
+ssh://root@nimbusserver:9022/GitRepo/AOS_Selenium
+
+//*[@id="SpeakersImg"]
