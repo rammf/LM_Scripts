@@ -36,7 +36,7 @@ public class SeleniumTest {
 	   // System.setProperty("webdriver.chrome.driver", "/home/demo/chromedriver/2.35/chromedriver");
 	    
 	    
-	    System.setProperty("webdriver.chrome.driver", "C:\chrome");
+	//    System.setProperty("webdriver.chrome.driver", "C:\chrome");
 
           WebDriver driver = new ChromeDriver();
 
