@@ -33,7 +33,10 @@ public class SeleniumTest {
     @Test
     public void demoseltest() throws Exception {
 
-	    System.setProperty("webdriver.chrome.driver", "/home/demo/chromedriver/2.35/chromedriver");
+	   // System.setProperty("webdriver.chrome.driver", "/home/demo/chromedriver/2.35/chromedriver");
+	    
+	    
+	    System.setProperty("webdriver.chrome.driver", "C:\chrome");
 
           WebDriver driver = new ChromeDriver();
 
