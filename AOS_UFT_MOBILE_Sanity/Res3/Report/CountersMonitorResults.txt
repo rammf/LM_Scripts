@@ -1,0 +1,5 @@
+ProcessName , Mobile Device Vitals
+StartReplayTime ,	2020-01-14 17:22:21
+Limits			,-1		,-1 
+Time  ,  Cpu (in %) ,  Free Memory (in KB) 
+2020-01-14 17:22:21   ,  0 ,  0 
