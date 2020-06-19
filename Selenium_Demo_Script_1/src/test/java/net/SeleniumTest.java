@@ -30,7 +30,7 @@ public class SeleniumTest {
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
 
-        driver = new ChromeDriver();
+      //  driver = new ChromeDriver();
     }
 
     @AfterClass
@@ -57,7 +57,7 @@ public class SeleniumTest {
 	    
 	    System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
-       //   WebDriver driver = new ChromeDriver();
+          WebDriver driver = new ChromeDriver();
 
         driver.get("http://www.google.com");
 
